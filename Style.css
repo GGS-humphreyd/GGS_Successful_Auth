@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e5e5e5; /* Adjusted background color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 50%; /* Adjusted for better layout */
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px; /* Increased border radius */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Adjusted shadow for depth */
+}
+
+.header .logo {
+    max-width: 200px; /* Adjusted logo size */
+    margin-bottom: 30px; /* More space below the logo */
+}
+
+.content h1 {
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 24px; /* Larger font size */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+}
+
+.button {
+    padding: 15px 30px; /* Larger buttons */
+    border: none;
+    border-radius: 8px; /* More rounded buttons */
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    font-size: 18px; /* Larger text */
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Specific styles for different buttons */
+.cloud-site {
+    background-color: #4caf50; /* Different color for cloud site button */
+}
+
+.cloud-site:hover {
+    background-color: #388e3c; /* Darker shade on hover */
+}
+
+.visit-google {
+    background-color: #f44336; /* Different color for Google button */
+}
+
+.visit-google:hover {
+    background-color: #d32f2f; /* Darker shade on hover */
+}
