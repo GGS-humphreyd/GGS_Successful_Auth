@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Authentication Success</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/ico" />
+</head>
+<body>
+    <div class="container">
+        <!-- Header for the logo -->
+        <div class="header">
+            <img src="smallLogo.png" alt="Gravesend Grammar School Logo" class="logo">
+        </div>
+        <!-- Main content area -->
+        <div class="content">
+            <h1>Install a certificate to access the internet on your own device</h1>
+            <div class="button-container">
+                <a href="https://success-auth.gravesendgrammar.com/WindCert" class="button Cert-win">Install for Windows</a>
+                <a href="https://success-auth.gravesendgrammar.com/IphoneCert" class="button Cert-iphone">Install for iPhone</a>
+                <a href="https://success-auth.gravesendgrammar.com/androidCert" class="button Cert-android">Install for Android</a>
+                <a href="https://success-auth.gravesendgrammar.com/MacCert" class="button Cert-mac">Install for Mac</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
